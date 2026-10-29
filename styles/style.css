@@ -157,3 +157,76 @@ Deal page CSS content  */
   .order-table td { padding: 10px; font-size: 0.9rem; }
   .order-button { display: block; margin: 8px 0; }
 }
+
+/* ==========================================================================
+   FEEDBACK & CONTACT PAGE (feedback.html) - Member 4 (Sangheui Kim)
+   ========================================================================== */
+
+.fb-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+.fb-intro { margin-bottom: 24px; }
+
+.fb-contact,
+.fb-form-section {
+  background: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 24px;
+}
+
+.fb-contact ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.fb-contact li { padding: 6px 0; }
+
+.fb-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.fb-form label {
+  font-weight: bold;
+  margin-top: 8px;
+}
+.fb-form input,
+.fb-form textarea {
+  padding: 10px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font: inherit;
+  width: 100%;
+  box-sizing: border-box;
+}
+.fb-form input:focus,
+.fb-form textarea:focus {
+  outline: 2px solid #e67e22;
+  border-color: #e67e22;
+}
+.fb-form button {
+  margin-top: 16px;
+  padding: 12px;
+  background: #e67e22;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font: inherit;
+  font-weight: bold;
+  cursor: pointer;
+}
+.fb-form button:hover,
+.fb-form button:focus { background: #c96a14; }
+
+/* Responsive: phones */
+@media (max-width: 600px) {
+  .fb-page { padding: 16px 12px; }
+  .fb-contact,
+  .fb-form-section { padding: 14px; }
+  .fb-form button { width: 100%; }
+}
